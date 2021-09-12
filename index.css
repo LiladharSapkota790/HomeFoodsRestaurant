@@ -221,7 +221,7 @@ input[type="submit"] {
 }
 
 .menu-button input:focus {
-  background: red;
+  background: orange;
 }
 
 .menu-button input:hover {
@@ -230,7 +230,7 @@ input[type="submit"] {
 }
 
 .menu-button input:active {
-  background: red;
+  background: orange;
 }
 
 .card {
