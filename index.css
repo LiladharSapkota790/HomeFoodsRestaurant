@@ -382,7 +382,7 @@ breakfast-column {
   /*background-image: url("https://source.unsplash.com/1920x600/?restaurant");*/
   background-repeat: no-repeat;
   background-size: cover;
-  color: #000000;
+  color: #000;
 }
 
 #review container-fluid {
