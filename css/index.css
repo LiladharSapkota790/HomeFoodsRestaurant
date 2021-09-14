@@ -1,0 +1,670 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat-light", sans-serif;
+  text-align: center;
+}
+
+.mybtn {
+  background: red;
+  color: #fff;
+}
+
+hr {
+  border-top: 1px dotted red;
+  margin: 1.1%;
+}
+
+.container-fluid {
+  padding: 5% 14%;
+  text-align: center;
+}
+
+/*my navbar */
+.navbar {
+  padding: 0.6rem 4.5rem 0;
+  background: #040f0f;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.custom-toggler {
+  font-weight: bold;
+}
+
+/*to create a gap between two  nav
+*/
+.nav-item {
+  padding: 0 20px;
+  here 0 is for top and button and 18 is left right
+}
+
+/*for nav-link font*/
+.nav-link {
+  font-size: 0.9rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+}
+
+.search-form {
+  margin: 0.3rem 1.5rem;
+}
+
+input[type="submit"] {
+  position: absolute;
+}
+
+.dropdown-menu:hover {
+  background: red;
+}
+
+.dropdown-item:hover {
+  color: #000;
+}
+
+/*.search-form input {
+  box-shadow: inset 0 0 10px #ccc;
+}*/
+.nav-img {
+  width: 5%;
+  background: red;
+  border-radius: 100%;
+  display: inline;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  display: contents;
+}
+
+.nav-highlight {
+  box-shadow: inset 0px 1px 0px 0px #cf866c;
+  background-color: #d0451b;
+  border-radius: 12px;
+  border: 2px solid #942911;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 4px 8px;
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+.nav-highlight:hover {
+  background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+  background-color: #bc3315;
+}
+
+.nav-highlight:active {
+  position: relative;
+  top: 2px;
+}
+
+.bg-color {
+  font-weight: bold;
+  background: blue;
+}
+
+.fa-red {
+  color: #fff;
+  margin-top: 0.4%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.search-btn {
+  background: lightblue;
+}
+
+.nav-link:hover {
+  border: 2px solid red;
+  border-radius: 4%;
+  border-style: outside;
+  border-top-color: blue;
+  border-bottom-color: RED;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  transform: rotate(0deg);
+}
+
+/*navbaar style finish here*/
+/*style for first container*/
+#header .container-fluid {
+  padding: 4.8% 0 0;
+}
+
+.carousel-item img {
+  width: 240vh;
+  height: 90vh;
+}
+
+.carousel-caption {
+  margin: 10%;
+  padding-bottom: 3%;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+.carousel-caption p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.title-button {
+  margin: 5% 5% 5% 0;
+}
+
+/*style for about us*/
+#about {}
+
+.page-heading {
+  margin-bottom: revert;
+  font-size: 2rem;
+
+}
+
+.about-paragraph {
+  text-align: left;
+  line-height: 1.7;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-container img {
+  width: 65%;
+}
+
+/*style for menu section starts from here*/
+#menu {
+  background: rgb(204, 204, 204);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#menu .container-fluid {
+  padding: 1% 6%;
+}
+
+.container-static {
+  scroll-behavior: smooth;
+  border: px solid red;
+}
+
+.menu-heading {
+  text-align: center;
+}
+
+.menu-button {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.menu-button input {
+  margin: 6% 2.5% 2%;
+  padding: 0.5% 1%;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.menu-button input:focus {
+  background: red;
+}
+
+.menu-button input:hover {
+  background: orange;
+  zoom: 1.2;
+}
+
+.menu-button input:active {
+  background: red;
+}
+
+.card {
+  background: #3e232300;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10%;
+  box-shadow: 5px 20px 15px rgba(0, 0, 0, 0.8);
+  border-radius: 4%;
+  padding: 0;
+}
+
+breakfast-column {
+  margin-bottom: 5%;
+}
+
+.card-image img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.card-image img:hover {
+  width: 100%;
+  transition: width 3s;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.card-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: rgb(242, 242, 242);
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.card-header button {
+  margin-top: 2%;
+}
+
+.btn-details {
+  width: 50%;
+}
+
+.btn-cart {
+  width: 48%;
+}
+
+/*details CSS*/
+.modal-header {
+  background: red;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.close {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.modal-body h4 {
+  font-size: 1rem;
+  margin-bottom: 3%;
+  font-family: "Montserrat-light", sans-serif;
+}
+
+.modal-body .modal-checkboxes {
+  font-size: 1rem;
+  font-family: "Montserrat-light", sans-serif;
+  zoom: 1.1;
+  text-align: left;
+}
+
+.modal-content {
+  width: 80%;
+  border-radius: 4%;
+}
+
+.modal-textarea {
+  width: 100%;
+  border-radius: 2%;
+  background: #cccccc;
+  text-align: center;
+}
+
+/*section for menu ends here*/
+/*style for our team*/
+#ourteam {
+  background: #fff;
+}
+
+.ourteam-head {
+  color: #000;
+}
+
+.chef-image {
+  width: 70%;
+  height: 80%;
+  border: 1px solid #fff;
+  border-radius: 10%;
+  box-shadow: 0 5px 20px white rgba(255, 0, 0, 0.8);
+}
+
+.chef-style h4 {
+  padding-top: 2%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.chef-image:hover {
+  width: 80%;
+  box-shadow: outside;
+  transition: width 3s;
+  background: #fff;
+}
+
+.chef-style p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/*partner*/
+#partner {
+  background: #fff;
+}
+
+#partner .container-fluid {
+  padding: 0 14%;
+  text-align: center;
+}
+
+.partner-img {
+  width: 15%;
+  padding: 1% 4%;
+}
+
+/*Review style*/
+#review {
+  background: #eee;
+  /*background-image: url("https://source.unsplash.com/1920x600/?restaurant");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+}
+
+#review .container-fluid {
+  padding: 6% 15%;
+}
+
+.review-head {
+  padding-top: 4%;
+}
+
+.testimonial-text {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.carousel-item .name {
+  color: orange;
+  font-size: 1rem;
+}
+
+.carousel-item .desc {
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.checked {
+  color: orange;
+}
+
+/*//reservation css*/
+#reservation {
+  background-image: url("https://source.unsplash.com/900x1000/?breakfast");
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+
+.reservation-form p {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 5% 5%;
+  justify-content: center;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.reservation-container {
+  padding-top: 60px;
+}
+
+.reservation-form {
+  width: 40%;
+  background: #ff0000e6;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  border-radius: 5%;
+  border: 3px solid #fff;
+  padding-top: 10px;
+}
+
+.reservation-heading {
+  text-align: center;
+}
+
+.reservation-form p {
+  color: #000;
+  font-size: 1rem;
+}
+
+.phone {
+  color: #000;
+  font-weight: bold;
+}
+
+.style-for-input-value {
+  margin: 1% 0;
+  padding: 5px 12px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-color: #fff;
+}
+
+/*Contact us */
+/*.contact-heading {
+  margin-bottom: 5%;
+}
+*/
+.contact-phone p, h3 {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.opening-hours {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.open-time {
+  opacity: 0.4;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.contact-form {
+  text-align: left;
+  border-radius: 7px;
+  padding: 0 14%;
+}
+
+.contact-form input {
+  text-align: inherit;
+  margin: 0;
+}
+
+.for-textarea {
+  width: 100%;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: inherit;
+  padding: 0 2%;
+}
+
+.form-head {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.googlemaps p {
+  width: 350px;
+  height: 400px;
+  border: 0;
+  loading: "lazy";
+}
+
+/*footer style */
+#footer {
+  background: #000;
+  color: #fff;
+  z-index: -4;
+}
+
+.footer-p p {
+  opacity: 0.5;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 4%;
+}
+
+.designer {
+  opacity: 0.4;
+}
+
+.designer:hover {
+  opacity: 0.8;
+  color: yellow;
+}
+
+.subscribe-btn {
+  padding: 0.2%;
+}
+
+.social-media {
+  padding: 0 5%;
+}
+
+.social-media:hover {
+  color: red;
+}
+
+/*using of media query */
+@media (max-width:1000px) {
+  .navbar {
+    padding: 0 5% 0 5%;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+  }
+
+  .nav-img {
+    width: 18%;
+    border-radius: 100%;
+    display: inline;
+  }
+
+  .custom-toggler {
+    padding-top: 5%;
+  }
+
+  .search-form {
+    margin: 1.3rem -0.5rem;
+  }
+
+  #about .container-fluid {
+    padding: 0 4%;
+  }
+
+  .about-container img {
+    width: 100%;
+    margin-bottom: 6%;
+  }
+
+  .about-paragraph {
+    font-size: 1rem;
+  }
+
+  #ourteam .container-fluid {
+    padding: 0 5%;
+  }
+
+  .chef-image {
+    width: 100%;
+  }
+
+  .review-head {
+    padding-top: 8%;
+  }
+
+  .testimonial-text {
+    font-size: 0.8rem;
+  }
+
+  .footer-p {
+    padding: 7% 0;
+  }
+
+  .copyright {
+    font-size: 0.7rem;
+    display: inline;
+  }
+
+  .reservation-form {
+    width: 100%;
+    background: #ff0000e6;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    border-radius: 5%;
+    border: 3px solid #fff;
+    padding-top: 10px;
+  }
+
+  .carousel-caption {
+    margin: 48% -9%;
+    padding-bottom: 3%;
+  }
+
+  .carousel-caption h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+  }
+
+  .carousel-caption p {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  #contact .container-fluid {
+    padding: 0 5%;
+  }
+
+  .contact-form {
+    text-align: left;
+    border-radius: 7px;
+    padding: 0 1%;
+  }
+
+  .for-textarea {
+    width: 70%;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: inherit;
+    padding: 0 2%;
+  }
+
+  .collapse.show {
+    display: block;
+    padding: 6% 0;
+  }
+}
