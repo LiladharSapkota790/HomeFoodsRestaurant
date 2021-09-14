@@ -326,7 +326,7 @@ breakfast-column {
 /*section for menu ends here*/
 /*style for our team*/
 #ourteam {
-  background: #ff7f7f2e;
+  background: #fff;
 }
 
 .ourteam-head {
@@ -362,7 +362,7 @@ breakfast-column {
 
 /*partner*/
 #partner {
-  background: #ff7f7f2e;
+  background: #fff;
 }
 
 #partner .container-fluid {
@@ -377,12 +377,12 @@ breakfast-column {
 
 /*Review style*/
 #review {
-  padding: 6% 1%;
-  background: #555;
+
+  background: #ddd;
   /*background-image: url("https://source.unsplash.com/1920x600/?restaurant");*/
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: #000000;
 }
 
 #review container-fluid {
