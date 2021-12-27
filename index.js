@@ -30,3 +30,10 @@ function dessert(){
 const mydessert= document.getElementById("dessert-menu");
 document.getElementById("breakfast-menu-show").innerHTML = mydessert.innerHTML;
 }
+
+function showmessanger(){
+  var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "2310611745671546");
+      chatbox.setAttribute("attribution", "biz_inbox");
+}
+
